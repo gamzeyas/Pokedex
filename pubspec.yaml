@@ -1,0 +1,26 @@
+name: pokebox
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.1
+  dio: ^5.4.3+1
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
